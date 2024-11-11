@@ -13,7 +13,7 @@ public class Customer {
     setName(name);
     setUsername(username);
     setPassword(password);
-    setAccountdId(accountdId);
+    setAccountId(accountdId);
     setAuthenticated(false);
   }
 
@@ -49,11 +49,11 @@ public class Customer {
     this.password = password;
   }
 
-  public int getAccountdId() {
+  public int getAccountId() {
     return this.accountdId;
   }
 
-  public void setAccountdId(int accountdId) {
+  public void setAccountId(int accountdId) {
     this.accountdId = accountdId;
   }
 
